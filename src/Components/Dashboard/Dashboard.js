@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Line, LineChart } from 'recharts';
 
 const Dashboard = () => {
+    const [lineChart, setLineChart] = useState([]);
+
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setLineChart(data))
+    }, [])
+
     return (
-        <div>
-            <h1>Here graphs of will be shown</h1>
-        </div>
+        <LineChart width={400} height={500} lineChart={lineChart} >
+            <Line ></Line>
+
+        </LineChart>
     );
 };
 
