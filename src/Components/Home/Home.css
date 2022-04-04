@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.bar {
+    margin: 100px;
+}
+
+.info {
+    width: 100%;
+}
+
+.container img {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+}
