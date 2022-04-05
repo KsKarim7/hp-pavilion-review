@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <Container className='bar'>
                 <div className='info'>
-                    <h2>Best Budget Gaming laptop you can get </h2>
+                    <h2>HP Budget Gaming Laptop</h2>
                     <br />
                     <h3 className='laptop-name'>HP Pavilion Gaming Laptop - 15z-ec200 </h3>
                     <br />

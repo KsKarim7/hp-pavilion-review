@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import useHook from '../../Hooks/CustomHooks';
 import DisplayReview from '../DisplayReview/DisplayReview';
 import "./Review.css"
@@ -15,7 +14,7 @@ const Review = () => {
     const [review, setReview] = useHook();
     return (
         <div>
-            <h2 className='heading'>Review of some users </h2>
+            <h2 className='heading'>Review from our precious customers </h2>
             <div className='review-container'>
                 {
                     review.map(displayReview => <DisplayReview

@@ -1,13 +1,19 @@
 # Getting Started with Create React App
 
-<!-- Name of my project: HP Laptop review site
-    Link of my live website:
-    A short description about my project is written below:
-    *I made a website focusing on a gaming laptop.
+Name of my project: HP Laptop review site.
+
+Link of my live website:
+
+A short description about my project is written below:
+
+    * I have made a website focusing on a gaming laptop.
+
     *What are specifications we should look for in a gaming laptop  before buying one.
+
     *What are the things we should consider before buying a gaming laptop.
+
     *Best budget friendly gaming laptop that is currently available in the market.
-  -->
+ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
