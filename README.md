@@ -2,7 +2,7 @@
 
 Name of my project: HP Laptop review site.
 
-Link of my live website: https://radiant-baklava-5c07c6.netlify.app/
+Link of my live website: https://tourmaline-bavarois-b79810.netlify.app/home
 
 A short description about my project is written below:
 
