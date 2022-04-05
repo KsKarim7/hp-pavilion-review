@@ -1,11 +1,15 @@
 import React from 'react';
 import { Button, Container, } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import useHook from '../../Hooks/CustomHooks';
 import pavilion from '../../images/pavi15.jfif'
+import DisplayReview from '../DisplayReview/DisplayReview';
 import './Home.css'
 
 const Home = () => {
     const navigate = useNavigate();
+    const [review, setReview] = useHook();
+
     return (
         <div>
             <Container className='bar'>
@@ -24,13 +28,25 @@ const Home = () => {
                     <img src={pavilion} alt="" />
                 </div>
             </Container >
-            <div className='review'>
-                <h1>See all reviews here</h1>
 
-
-            </div>
             <div>
-                <Button onClick={() => navigate('/reviews')} className='btn' variant='dark'>See all Reviews here</Button>
+                <div className='review-section'>
+                    <h1>Some reviews from our beloved customer</h1>
+                    <div className='review-part'>
+                        {
+                            review.slice(0, 3).map(displayReview => <DisplayReview
+                                key={review.id}
+                                review={displayReview}
+                            ></DisplayReview>)
+                        }
+
+                    </div>
+
+
+                </div>
+                <div className='review-button'>
+                    <Button onClick={() => navigate('/reviews')} className='btn' variant='dark'>See all Reviews here</Button>
+                </div>
             </div>
         </div >
     );
