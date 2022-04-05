@@ -2,13 +2,13 @@
 
 Name of my project: HP Laptop review site.
 
-Link of my live website:
+Link of my live website: https://radiant-baklava-5c07c6.netlify.app/
 
 A short description about my project is written below:
 
-    * I have made a website focusing on a gaming laptop.
+    - I have made a website focusing on a gaming laptop.
 
-    *What are specifications we should look for in a gaming laptop  before buying one.
+    "*" What are specifications we should look for in a gaming laptop  before buying one.
 
     *What are the things we should consider before buying a gaming laptop.
 
