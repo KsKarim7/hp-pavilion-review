@@ -11,7 +11,7 @@ const DisplayReview = (props) => {
             <h6>Reviews:{reviews}</h6>
             <p>Rating:{rating}</p> */}
 
-            <Card border='secondary' style={{ width: '15rem' }}>
+            <Card border='secondary' style={{ width: '30rem' }}>
                 <Card.Img variant="top" />
                 <Card.Body className='user'>
                     <img src={picture} alt="" />

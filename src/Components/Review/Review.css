@@ -1,13 +1,13 @@
 .heading {
     display: flex;
     justify-content: center;
-    margin: 70px;
+    margin: 30px;
     color: grey;
 }
 
 .review-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 10px;
     margin-left: 100px;
 }

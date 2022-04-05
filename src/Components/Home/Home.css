@@ -24,3 +24,7 @@
     display: flex;
     align-items: center;
 }
+
+.laptop-name {
+    color: grey;
+}
