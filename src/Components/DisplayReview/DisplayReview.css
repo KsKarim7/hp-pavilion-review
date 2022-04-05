@@ -1,9 +1,8 @@
-.user {
-    width: 10px;
+.user img {
+    width: 150px;
+    padding-bottom: 20px;
 }
 
-.card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
+.review {
+    margin-top: 20px;
 }

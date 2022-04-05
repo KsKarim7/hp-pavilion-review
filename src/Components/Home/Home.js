@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, } from 'react-bootstrap';
-import pavilion from '../../images/pavilion.webp'
+import pavilion from '../../images/pavi15.jfif'
 import './Home.css'
 
 const Home = () => {

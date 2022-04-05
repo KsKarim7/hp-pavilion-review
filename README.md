@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-<!-- Name of my project: Laptop review
+<!-- Name of my project: HP Laptop review site
     Link of my live website:
     A short description about my project is written below:
     *I made a website focusing on a gaming laptop.

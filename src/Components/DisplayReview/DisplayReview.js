@@ -11,15 +11,18 @@ const DisplayReview = (props) => {
             <h6>Reviews:{reviews}</h6>
             <p>Rating:{rating}</p> */}
 
-            <Card className='card' style={{ width: '17rem' }}>
-                <Card.Img className='user' variant="top" src={picture} />
-                <Card.Body>
+            <Card border='secondary' style={{ width: '15rem' }}>
+                <Card.Img variant="top" />
+                <Card.Body className='user'>
+                    <img src={picture} alt="" />
                     <Card.Title>Name: {name}</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        <div className='review'>
+                            {reviews}
+
+                        </div>
                     </Card.Text>
-                    <p>Rating: {rating}</p>
+                    <Card.Title>Rating: {rating}</Card.Title>
                 </Card.Body>
             </Card>
         </div>
