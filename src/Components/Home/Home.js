@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Button, Container, } from 'react-bootstrap';
 import pavilion from '../../images/pavilion.webp'
 import './Home.css'
 
@@ -18,6 +18,11 @@ const Home = () => {
             </Container>
             <div className='review'>
                 <h1>See all reviews here</h1>
+
+
+            </div>
+            <div>
+                <Button className='btn' variant='dark'>See all Reviews here</Button>
             </div>
         </div>
     );

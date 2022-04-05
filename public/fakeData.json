@@ -1,0 +1,39 @@
+[
+    {
+        "id": "624bf57e193fb7710fe9f51c",
+        "reviews": "Got my laptop 2days ago from amazon.From the get go it is very dope looking laptop. I get to know about this laptop from a friend mine, who is using the 2020 version of it for 2years, and still rocking. Can't wait to use it as my primary laptop!!",
+        "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+        "rating": 4,
+        "name": "Mcintyre Wise"
+    },
+    {
+        "id": "624bf57e5e500239d71e8067",
+        "picture": "https://randomuser.me/api/portraits/women/84.jpg",
+        "rating": 5,
+        "name": "Guy Rush"
+    },
+    {
+        "id": "624bf57edc2830e2445423d2",
+        "picture": "https://randomuser.me/api/portraits/men/44.jpg",
+        "rating": 4,
+        "name": "Alta Calhoun"
+    },
+    {
+        "id": "624bf57e82369267379e265c",
+        "picture": "https://randomuser.me/api/portraits/women/26.jpg",
+        "rating": 1,
+        "name": "Winnie Sykes"
+    },
+    {
+        "id": "624bf57edf96ac86bbb61c75",
+        "picture": "https://randomuser.me/api/portraits/women/87.jpg",
+        "rating": 4,
+        "name": "Luna Puckett"
+    },
+    {
+        "id": "624bf57ef18100c3ef5964e6",
+        "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+        "rating": 3,
+        "name": "Mercedes Rosario"
+    }
+]
