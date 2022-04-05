@@ -6,13 +6,13 @@ Link of my live website: https://radiant-baklava-5c07c6.netlify.app/
 
 A short description about my project is written below:
 
-    - I have made a website focusing on a gaming laptop.
+- I have made a website focusing on a gaming laptop.
 
-    "*" What are specifications we should look for in a gaming laptop  before buying one.
+- What are specifications we should look for in a gaming laptop  before buying one.
 
-    *What are the things we should consider before buying a gaming laptop.
+- What are the things we should consider before buying a gaming laptop.
 
-    *Best budget friendly gaming laptop that is currently available in the market.
+- Best budget friendly gaming laptop that is currently available in the market.
  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
